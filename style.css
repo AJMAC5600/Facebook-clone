@@ -1,0 +1,162 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #f2f4f7;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 12px;
+}
+.main-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 12px;
+}
+.sub-container1,
+.sub-container2 {
+  width: 50%;
+}
+.sub-container1 {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: end; */
+  align-items: start;
+  margin-top: 150px;
+  margin-left: 150px;
+  /* border: 1px solid black; */
+  gap: 5px;
+}
+.sub-container1 > img {
+  height: 156px;
+  width: 369px;
+  padding-top: 10px;
+}
+.sub-container1 > h1 {
+  padding-left: 36px;
+  padding-bottom: 10px;
+  font-size: 31px;
+}
+.sub-container2 {
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  align-items: end;
+  justify-content: center;
+  margin-top: 195px;
+  padding: 10px;
+  width: 40%;
+}
+.login {
+  height: 100%;
+  width: 100%;
+}
+.idpass {
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  height: 97%;
+  width: 80%;
+  padding: 20px;
+  gap: 15px;
+  justify-content: start;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 10px;
+  margin-right: 100px;
+  box-shadow: 0px 0px 5px rgb(214, 208, 208);
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 12px;
+}
+input {
+  height: 50px;
+  width: 90%;
+  border-radius: 5px;
+  border: 1px solid rgb(235, 229, 229);
+  color: rgb(177, 170, 170);
+  font-size: 15px;
+}
+.idpass > button {
+  height: 50px;
+  width: 90%;
+  background-color: #0866ff;
+  color: white;
+  border-radius: 5px;
+  box-shadow: none;
+  border: none;
+  font-size: 20px;
+}
+.idpass > a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #0866ff;
+}
+.newid {
+  /* margin-top: 60px; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid rgb(228, 228, 228);
+  margin-top: 10px;
+}
+.newid > button {
+  width: 55%;
+  height: 50px;
+  background-color: #42b72a;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  margin-top: 40px;
+}
+.sub-container1,
+.sub-container2 {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  margin-bottom: 100px;
+}
+.p {
+  margin-top: 20px;
+  margin-left: 62px;
+  font-size: 14px;
+}
+input:hover {
+  /* border: 1px solid #0866ff; */
+  cursor: pointer;
+}
+input:focus {
+  border: 1px solid #0866ff;
+  outline: none;
+}
+input {
+  padding: 10px;
+}
+.p > b:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.idpass > button:hover {
+  background-color: #2e79f1;
+}
+.idpass > button:active {
+  box-shadow: 0px 0px 5px #2e79f1;
+}
+.idpass > a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.newid > button:hover {
+  background-color: #237e11;
+  cursor: pointer;
+}
+.newid > button:active {
+  box-shadow: 0 0 5px #237e11;
+  outline: none;
+}
